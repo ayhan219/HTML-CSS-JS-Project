@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  font-family: sans-serif;
+}
+.hesapMakinesi {
+  width: 500px;
+  height: 600px;
+  background-color:lightgray;
+  margin: auto;
+}
+.ekran {
+  width: 100%;
+  height: 120px;
+  background-color: rgb(59, 59, 59);
+  display: flex;
+  justify-content: end;
+}
+.ekran span{
+    font-size: 40px;
+    color: #FFF;
+    padding-top: 20px;
+
+}
+button{
+    font-size:25px;
+}
+.buttonlar{
+    width: 100%;
+    height: 500px;
+    background-color: red;
+    display: grid;
+    grid-template-columns: 350px 1fr;
+    
+
+}
+.soltaraf{
+    background-color: blue;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.sagtaraf{
+    background-color: black;
+    display: grid;
+    grid-template-columns: auto;
+    
+}
+.silvetemizle{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+
+}
+.silvetemizle button{
+    width: 100px;
+    height: 50px;
+    margin-top: 10px;
+}
+.esittirButton{
+    background-color: rgb(90, 90, 121);
+    color: #FFF;
+}
+.sagtaraf button{
+    background-color: crimson;
+    font-size: 50px;
+
+}
+.sagtaraf button:hover{
+    background-color:brown;
+}
+
